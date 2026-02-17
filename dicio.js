@@ -28,5 +28,6 @@ function displayWord(word) {
 
 document.addEventListener('DOMContentLoaded', () => {
     const palavra = getRandomWord();
+    console.log(palavra);
     displayWord(palavra);
 });
