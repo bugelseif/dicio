@@ -1,5 +1,15 @@
 // array de palavras
-const projects = [
+const dicionario = [
+    {
+        palavra: "Administration",
+        traducao:"Administração",
+        definicao:"The process or activity of running a business, organization, etc.",
+        exemplos: [
+            "Administration costs.",
+            "A career in arts administration.",
+            "The university administration took their demands seriously."
+        ]
+    },
     {
         palavra: "Apple",
         traducao:"Maçã",
@@ -13,20 +23,45 @@ const projects = [
         ]
     },
     {
+        palavra: "Discuss",
+        traducao:"Discutir",
+        definicao:"Talk about (something) with another person or group of people.",
+        exemplos: [
+            "I discussed the matter with my wife."
+        ]
+    },
+    {
+        palavra: "Disease",
+        traducao:"Doença",
+        definicao:"A disorder of structure or function in a human, animal, or plant, especially one that has a known cause and a distinctive group of symptoms, signs, or anatomical changes.",
+        exemplos: [
+            "Bacterial meningitis is a rare disease.",
+            "A possible cause of heart disease."
+        ]
+    },
+    {
         palavra: "Equilibrium",
         traducao:"Equilíbrio",
-        definicao:"A state of balance",
+        definicao:"A state of balance.",
         exemplos: [
             "The disease destroys much of the inner ear, disturbing the animal's equilibrium.",
             "The country's economic equilibrium"
         ]
     },
-    
+    {
+        palavra: "Meeting",
+        traducao:"Reunião",
+        definicao:"An assembly of people, especially the members of a society or committee, for discussion or entertainment.",
+        exemplos: [
+            "The early-dismissal policy will be discussed at our next meeting.",
+            "He intrigued her on their first meeting.",
+        ]
+    },    
 ];
 
 function getRandomWord() {
-    const randomIndex = Math.floor(Math.random() * projects.length);
-    return projects[randomIndex];
+    const randomIndex = Math.floor(Math.random() * dicionario.length);
+    return dicionario[randomIndex];
 }
 
 function displayWord(word) {
