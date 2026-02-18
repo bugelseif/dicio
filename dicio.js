@@ -1,4 +1,3 @@
-// array de palavras
 const dicionario = [
     {
         palavra: "Administration",
