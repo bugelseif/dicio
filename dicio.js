@@ -1,4 +1,3 @@
-// array de palavras
 const dicionario = [
     {
         palavra: "Administration",
@@ -20,6 +19,24 @@ const dicionario = [
             "The apple tree at the bottom of the garden is beginning to blossom.",
             "Newton reasoned that there must be a force such as gravity, when an apple fell on his head.",
             "Do you have any cooking apples?"
+        ]
+    },
+    {
+        palavra: "Browser",
+        traducao:"Navegador",
+        definicao:"A computer program with a graphical user interface for displaying and navigating between web pages.",
+        exemplos: [
+            "A web browser.",
+            "I search for the page in the browser."
+        ]
+    },
+    {
+        palavra: "Cook",
+        traducao:"Cozinhar",
+        definicao:"Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways.",
+        exemplos: [
+            "Shall I cook dinner tonight?",
+            "I hate cooking."
         ]
     },
     {
