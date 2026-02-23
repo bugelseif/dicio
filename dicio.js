@@ -22,6 +22,24 @@ const dicionario = [
         ]
     },
     {
+        palavra: "Browser",
+        traducao:"Navegador",
+        definicao:"A computer program with a graphical user interface for displaying and navigating between web pages.",
+        exemplos: [
+            "A web browser.",
+            "I search for the page in the browser."
+        ]
+    },
+    {
+        palavra: "Cook",
+        traducao:"Cozinhar",
+        definicao:"Prepare (food, a dish, or a meal) by combining and heating the ingredients in various ways.",
+        exemplos: [
+            "Shall I cook dinner tonight?",
+            "I hate cooking."
+        ]
+    },
+    {
         palavra: "Discuss",
         traducao:"Discutir",
         definicao:"Talk about (something) with another person or group of people.",
