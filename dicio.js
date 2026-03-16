@@ -10,6 +10,24 @@ const dicionario = [
         ]
     },
     {
+        palavra: "Algorithm",
+        traducao:"Algoritmo",
+        definicao:"A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+        exemplos: [
+            "A basic algorithm for division.",
+            "The Fibonacci sequence algorithm."
+        ]
+    },
+    {
+        palavra: "Automation",
+        traducao:"Automação",
+        definicao:"The use of technology to perform tasks with little or no human intervention.",
+        exemplos: [
+            "I work developing automations.",
+            "The automation of office tasks."
+        ]
+    },
+    {
         palavra: "Apple",
         traducao:"Maçã",
         definicao:"A round fruit with firm, white flesh and a green, red, or yellow skin.",
@@ -28,6 +46,15 @@ const dicionario = [
         exemplos: [
             "A web browser.",
             "I search for the page in the browser."
+        ]
+    },
+    {
+        palavra: "Computer",
+        traducao:"Computador",
+        definicao:"An electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program.",
+        exemplos: [
+            "My computer is frozen.",
+            "There is a hugely expensive new computer system."
         ]
     },
     {
@@ -66,12 +93,38 @@ const dicionario = [
         ]
     },
     {
+        palavra: "Huge",
+        traducao:"Enorme",
+        definicao:"Extremely large; enormous.",
+        exemplos: [
+            "A huge area.",
+            "This could be the start of something huge for you.",
+        ]
+    },
+    {
         palavra: "Meeting",
         traducao:"Reunião",
         definicao:"An assembly of people, especially the members of a society or committee, for discussion or entertainment.",
         exemplos: [
             "The early-dismissal policy will be discussed at our next meeting.",
             "He intrigued her on their first meeting.",
+        ]
+    },
+    {
+        palavra: "Phishing",
+        traducao:"Phishing",
+        definicao:"The fraudulent practice of sending emails or other messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords and credit card numbers.",
+        exemplos: [
+            "Respondents named ransomware and phishing as leading security concerns.",
+        ]
+    },
+    {
+        palavra: "Void",
+        traducao:"Vazio",
+        definicao:"Not valid or legally binding.",
+        exemplos: [
+            "The contract was void.",
+            "What were once the masterpieces of literature are now void of meaning."
         ]
     },    
 ];
